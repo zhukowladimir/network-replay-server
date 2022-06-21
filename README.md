@@ -22,6 +22,7 @@ cargo run -- --help
 ### UDP client for commands
 ```
 nc -u 0.0.0.0 8766
+nc -u network-replay-server_ip udp_control_port
 ```
 command list: 
  - `stop`
